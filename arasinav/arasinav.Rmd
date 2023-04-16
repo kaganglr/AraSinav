@@ -36,18 +36,35 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
 
-Bu yeni makale atıfım [@ceylan2010yakinsama]
+ Solow Modeli ve Yakınsama Hipotezi
+ 
+Ana akım iktisat`ın büyüme modeli olan Solow-Swan modelinin ülkeler arasındaki gelir eşitsizliklerini açıklama gücü tartışılır, ama (Mankiw-Romer-Weil, 1992)`in ana akım büyüme modeline uyarladıkları genişletilmiş modeli, eşitsizlikleri açıkladığını iddia etmiş ve uyarlanan bu model geniş bir kabul görmüştür.
+Ülkeler arasındaki büyük gelir farklılıklarının zaman içinde birbirlerine yaklaşmadığı müşahade edildiğinden teorinin ampirik olarak yanlışlandığı düşünülmüş ve Solow-Swan modelinden çıkış eğilimleri kuvvetlenmişti.
+Makalenin yaptığı ana katkı orijinal Solow-Swan modeline insan sermayesini dâhil ederek temel modelle gelir farklılıklarını koşullu yakınsamayla açıklayabilmesidir.
+Bu istikamette (Acemoğlu, 2009: 109-112) büyüme`nin sebeplerini yakın sebepler (Proximate Causes) ve temel sebepler (Fundamental Causes) olarak ikiye ayırmış, yakın sebepleri genişletilmiş Solow-Swan modelindeki açıklayıcı ve dışsal değişkenler (fiziksel sermaye-tasarruf, beşeri sermaye, teknoloji ve nüfus) olarak tasnif etmiş, temel sebepler olarak da şans, coğrafya, kültür ve kurumları göstermiştir.
+Dolayısıyla, MRW`nin katkılarıyla, ilgi genişletilmiş Solow-Swan modelinin açıklayıcı değişkenleri yerine bu açıklayıcı değişkenleri belirleyen temel sebeplere kaymıştır.
+Ders kitabı Solow-Swan modelinin MRW tarafından genişletilerek karmaşık olan gerçek hayatı daha iyi tasvir eder hale getirilmesi, modelin içsel büyüme modelleri lehine tasfiye edilmesini önlemiş ve ana akım araştırmalarının temel modeli olarak kalmasını sağlamıştır.
+Bu çalışmada MRW izlenerek Solow-Swan Modeli (Textbook Slow-Swan Model), Genişletilmiş Solow-Swan Modeli (Augmented Solow-Swan Model), Mutlak ve Koşullu Yakınsama hipotezleri (Absolute and Conditional Convergence) panel veri sabit etkiler (Fixed Effects) yöntemiyle test edilmektedir.
+Dolayısıyla, bu çalışmamız, ele alınan dönemin yakınlığı, kullanılan değişkenlerin tamamen ana akım modelini esas alması, panel veri kullanılması, gözlem sayısının çokluğu ve özellikle oluşturulan yeni ülke gruplarıyla uygulamalı literatüre önemli bir katkı sağlamaktadır.
+Üçüncü bölümde ekonometrik model değişkenlerinin ana akım modelini yansıtabilmesi için MRW`nin kısa bir özeti verilmektedir.
+Sonraki üç bölümde Solow-Swan Modeli ve Genişletilmiş Solow-Swan Modelleri kurulmakta ve ampirik modelle veri seti açıklanmaktadır.
+Solow-Swan büyüme modeli olarak anılan bu orijinal neoklasik model, ülkelerin işçi başına düşen gelirlerinin zaman içinde aynı düzeye geleceğini öngörmekteydi.
+Yakınsama başarısızlığının etkisiyle (Barro, 1989) Solow-Swan modelindeki yapıyı terk ederek büyüme, yatırım ve doğurganlık gibi pek çok değişken arasındaki eşanlı ilişkilere Sarıbaş, H.
+Regresyona uygun olan ve doğrudan Solow-Swan modelinden üretilen ilk model MRW`nin çalışmasıdır ve bu çalışma ana akım iktisadının o zamandan beri en temel büyüme regresyonu olarak kabul edilmiştir (Islam, 2003: 319).
+Genişletilmiş Solow-Swan modeli olarak anılan bu modele göre yakınsama koşulludur.
+MRW`nin çalışmasından sonra Solow-Swan modelinin ekonometrik olarak daha iyi nasıl tahmin edilebileceği üzerinde durulmuş, esas model olan Solow-Swan`ın teorik üstünlüğü ana akım tarafından devam ettirilmiştir.Bu konuda detaylı bilgi almak için atıf yaptığım @saribacs2016ana okunabilir.
 
 
 Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir (doğal olarak ilk bölüm başlığı hariç). Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
 
 ## Çalışmanın Amacı
-Yakınsama Hipotezini veri analiziyle sınayarak doğruluğu hakkında bilgi sahibi olamktır.
+Yakınsama Hipotezi ile ilgili topladığım makalelerle bu hipotezin doğruluğu hakkında eleştirel bir bakış ortaya sunmaktır.
 
 ## Literatür 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Okuduğum makaleler sırasıyla ; @ceylan2010yakinsama, @saribacs2016ana, @lichtenberg1994testing, @rassekh1998convergence.
+
+
 
 
 
